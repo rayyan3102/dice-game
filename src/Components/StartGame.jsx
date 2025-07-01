@@ -49,6 +49,16 @@ const Container = styled.div`
   gap: 16px;
   height: auto;
   padding: 24px 0;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  .content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+  }
   .content h1 {
     font-size: 32px;
   }
@@ -56,6 +66,8 @@ const Container = styled.div`
     width: 80vw;
     max-width: 220px;
     height: auto;
+    display: block;
+    margin: 0 auto 16px auto;
   }
  }
 `;
